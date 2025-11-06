@@ -1,0 +1,21 @@
+﻿[tool.poetry]
+name = "u2-facilitator"
+version = "0.1.0"
+description = "Multi-agent system for discovering Unknown Unknowns in SWE."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.42.0"
+tenacity = "^8.2.3"
+pydantic = "^2.10.0"
+python-dotenv = "^1.0.1"
+tiktoken = "^0.7.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

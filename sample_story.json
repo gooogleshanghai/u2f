@@ -1,0 +1,5 @@
+﻿{
+  "enabler_story": "As a platform reliability lead, I want automated nighttime anomaly detection so that on-call fatigue is reduced without increasing false positives.",
+  "potential_fix": "Introduce new anomaly detection heuristics with configurable thresholds and on-call dashboards.",
+  "human_preferences": "innovation first"
+}
