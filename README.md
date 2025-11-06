@@ -1,5 +1,6 @@
-﻿# U2Facilitator Prototype
+﻿# U2F Prototype
 
+paper link: https://arxiv.org/abs/2511.03517
 Implementation of the multi-agent framework described in the U2F.
 Agents: Discovery → Exploration → Integration, with Search Augmentor and human-in-the-loop hooks.
 
@@ -21,3 +22,4 @@ poetry run python -m u2_facilitator.cli --input sample_story.json
   "human_preferences": "innovation first"
 }
 ```
+
